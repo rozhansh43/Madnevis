@@ -1,10 +1,10 @@
 <template>
-    <b-container class="my-5">
-        <b-row>
-            <b-navbar type="light" variant="light">
+    <b-navbar type="light">
+        <b-container class="my-5 py-2">
+            <b-col cols="8">
                 <b-navbar-nav>
                     <b-navbar-brand href="#">
-                        <img src="@/src/assets/logo-07.jpg" width="50" class="d-inline-block align-top">
+                        <img src="@/src/assets/logo-07.jpg" width="40" class="d-inline-block align-top">
                     </b-navbar-brand>
 
                     <b-nav-item href="#">
@@ -27,9 +27,15 @@
                         خدمات
                     </b-nav-item>
                 </b-navbar-nav>
-            </b-navbar>
-        </b-row>
-    </b-container>
+            </b-col>
+
+            <b-col cols="4">
+                <b-button pill variant="success">
+                    ورود/عضویت
+                </b-button>
+            </b-col>
+        </b-container>
+    </b-navbar>
 </template>
 
 <script>
