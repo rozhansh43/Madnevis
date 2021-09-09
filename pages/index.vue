@@ -284,6 +284,24 @@
         </div>
       </b-row>
     </b-container>
+
+    <footer>
+      <b-container>
+        <b-row>
+          <b-col>
+          </b-col>
+          
+          <b-col>
+          </b-col>
+          
+          <b-col>
+          </b-col>
+          
+          <b-col>
+          </b-col>
+        </b-row>
+      </b-container>
+    </footer>
   </div>
 </template>
 
@@ -293,13 +311,13 @@ export default {}
 
 <style>
 @font-face {
-    font-family: 'Vazir';
-    src: url(@/src/assets/fonts/Vazir-FD.5fa67fc.woff2);
+    font-family: 'yekan';
+    src: url(@/src/assets/fonts/yekanm.ttf);
 }
 
 body{
   direction: rtl;
-  font-family: 'Vazir';
+  font-family: 'yekan';
 }
 
 .blue-section {
