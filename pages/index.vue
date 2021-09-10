@@ -91,8 +91,8 @@
       </b-row>
     </b-container>
 
-    <b-container>
-      <b-row class="empty-section">
+    <b-container fluid class="">
+      <b-row class="empty-section bg-white">
 
       </b-row>
     </b-container>
@@ -144,9 +144,14 @@
         </p>
       </div>
 
-      <b-row>
-        <b-col class="text-center">
-          <b-img src="@/src/assets/reading.svg" width="70" class="p-2 mb-3"/>
+      <b-row>     
+        <b-col class="text-center bg-secondary m-3">
+          <b-img src="@/src/assets/reading.svg" width="70" class="p-2"/>
+
+          <div class="mb-3">
+            <b-img src="@/src/assets/ebe05e01-b9a0-49aa-aef9-ce5a498745c6_upload=true.png" width="30"/>
+          </div>
+
           <h4>
             ریحانه هادی
           </h4>
@@ -156,8 +161,13 @@
           </p>
         </b-col>
         
-        <b-col class="text-center">
-          <b-img src="@/src/assets/reading.svg" width="70" class="p-2 mb-3"/>
+        <b-col class="text-center bg-secondary m-3">
+          <b-img src="@/src/assets/reading.svg" width="70" class="p-2"/>
+
+          <div class="mb-3">
+            <b-img src="@/src/assets/ebe05e01-b9a0-49aa-aef9-ce5a498745c6_upload=true.png" width="30"/>
+          </div>
+
           <h4>
             ریحانه هادی
           </h4>
@@ -167,8 +177,13 @@
           </p>
         </b-col>
         
-        <b-col class="text-center">
-          <b-img src="@/src/assets/reading.svg" width="70" class="p-2 mb-3"/>
+        <b-col class="text-center bg-secondary m-3">
+          <b-img src="@/src/assets/reading.svg" width="70" class="p-2"/>
+
+          <div class="mb-3">
+            <b-img src="@/src/assets/ebe05e01-b9a0-49aa-aef9-ce5a498745c6_upload=true.png" width="30"/>
+          </div>
+
           <h4>
             ریحانه هادی
           </h4>
@@ -178,8 +193,13 @@
           </p>
         </b-col>
         
-        <b-col class="text-center">
-          <b-img src="@/src/assets/reading.svg" width="70" class="p-2 mb-3"/>
+        <b-col class="text-center bg-secondary m-3">
+          <b-img src="@/src/assets/reading.svg" width="70" class="p-2"/>
+
+          <div class="mb-3">
+            <b-img src="@/src/assets/ebe05e01-b9a0-49aa-aef9-ce5a498745c6_upload=true.png" width="30"/>
+          </div>
+
           <h4>
             ریحانه هادی
           </h4>
@@ -188,6 +208,7 @@
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
           </p>
         </b-col>
+        
       </b-row>
     </b-container>
 
@@ -215,24 +236,18 @@
 
     <b-container fluid class="text-justify">
       <b-row>
-        <div>
+        <b-col cols="4" class="mt-5 pt-5 text-center">
+          <h3>
+            اخبار و مقالات سایت
+          </h3>
+
+          <b-button variant="warning" class="mx-3 text-white">
+            مشاهده بیشتر
+           </b-button>
+        </b-col>
+
+        <b-col cols="8">
           <b-card-group deck class="mx-0">
-            <b-card img-src="@/src/assets/3800_8_06.jpg" class="border-30" img-alt="Image" img-top>
-              <h5>
-                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت؟
-              </h5>
-
-              <b-card-text>
-                متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و نوع با هدف بهبود ابزارهای کاربردی میآینده
-              </b-card-text>
-
-              <div class="text-center">
-                <b-button variant="secondary">
-                  تعرفه ها
-                </b-button>
-              </div>
-            </b-card>
-
             <b-card img-src="@/src/assets/3800_4_01.jpg" class="border-30" img-alt="Image" img-top>
               <h5>
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت؟
@@ -281,24 +296,74 @@
               </div>
             </b-card>
           </b-card-group>
-        </div>
+        </b-col>
       </b-row>
     </b-container>
 
-    <footer>
-      <b-container>
+    <footer class="mt-5 pt-5">
+      <b-container fluid class="text-justify border-50 bg-white position-relative white-footer">
         <b-row>
-          <b-col>
+          <b-col class="px-5">
+            <h5>
+              درباره ما
+            </h5>
+
+            <div>
+              <b-img src="@/src/assets/logo-07.jpg" width="40"/>
+
+              <span>
+                <b>
+                  مدنویس
+                </b>
+              </span>
+            </div>
+
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+            </p>
           </b-col>
           
-          <b-col>
+          <b-col class="px-5">
+            <h5>
+              لینک های کمکی 
+            </h5>
+
+            <ul>
+              <li>
+                درباره ما
+              </li>
+
+              <li>
+                تماس با ما
+              </li>
+
+              <li>
+                تعرفه
+              </li>
+            </ul>
           </b-col>
           
-          <b-col>
+          <b-col class="px-5">
+            <h5>
+              شبکه های اجتماعی
+            </h5>
+
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+            </p>
           </b-col>
           
-          <b-col>
+          <b-col class="px-5">
+            <h5>
+              اعتماد به ما
+            </h5>
           </b-col>
+        </b-row>
+      </b-container>
+
+      <b-container fluid>
+        <b-row class="bg-primary pt-5 pb-3">
+          کپی رایت تمامی حقوق مادی و معنوی این سرویس متعلق به شرکت انفورماتیک می‌باشد
         </b-row>
       </b-container>
     </footer>
@@ -318,6 +383,14 @@ export default {}
 body{
   direction: rtl;
   font-family: 'yekan';
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 900!important;
+}
+
+p {
+  font-size: 14px!important;
 }
 
 .blue-section {
@@ -346,13 +419,58 @@ body{
   margin-top: -110px;
 }
 
+.btn {
+  border-radius: 14px!important;
+  padding: 11px 35px!important;
+}
+
+.btn-secondary {
+  background-color: #d3d5e5!important;
+  border-color: #d3d5e5!important;
+  color: #133267!important;
+}
+
+.btn-success {
+  background-color: #01c28c!important;
+  border-color: #01c28c!important;
+}
+
+.btn-warning {
+  background-color: #FEC44e !important;
+  border-color: #FEC44e!important;
+}
+
+.bg-success {
+  background: #01c28c!important;
+}
+
+.bg-warning {
+  background: #FEC44e!important;
+}
+
+.bg-primary {
+  background: #0953f0 important;
+  color: #fff!important;
+}
+
+.bg-secondary {
+  border-radius: 68px;
+  padding: 22px;
+  background-color:rgb(243, 250, 255)!important;
+}
+
 .card img {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
 
+.white-footer {
+  margin-bottom: -40px;
+}
+
 .card {
   border: none;
+  margin-left: 0!important;
   box-shadow: 0 0px 8px rgba(145, 145, 145, 0.3), 0 2px 2px rgba(141, 141, 141, 0.2);
 }
 </style>
