@@ -12,7 +12,7 @@
                     </b-navbar-brand>
 
                     <b-nav-item>
-                        <NuxtLink to="/my-items" class="nav-link">
+                        <NuxtLink to="/" class="nav-link">
                             خانه
                             <span class="sr-only">
                                 (current)

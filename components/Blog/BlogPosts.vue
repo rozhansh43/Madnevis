@@ -9,6 +9,9 @@
           <b-button variant="warning" class="mx-3 text-white">
             مشاهده بیشتر
            </b-button>
+            <div class="mt-4">
+              <b-img src="@/src/assets/9814.jpg" width="400"/>
+            </div>
         </b-col>
 
         <b-col cols="8">

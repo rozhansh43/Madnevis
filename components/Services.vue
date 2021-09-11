@@ -10,7 +10,7 @@
       </p>
         </b-container>
 
-        <b-container class="bg-white py-4 our-services text-center border-50">
+        <b-container class="bg-secondary position-relative py-4 our-services text-center border-50">
         <b-row>
             <b-col class="d-flex flex-column">
             <b-img src="@/src/assets/calendar.svg" width="60" class="mx-auto mb-3"/>

@@ -1,7 +1,7 @@
 <template>
     
-    <footer class="mt-5 pt-5">
-      <b-container fluid class="text-justify border-50 bg-white position-relative white-footer">
+    <footer class="mt-5 pt-5 border-top">
+      <b-container fluid class="text-justify border-50 bg-white position-relative white-footer py-5">
         <b-row>
           <b-col class="px-5">
             <h5>
@@ -57,14 +57,18 @@
             <h5>
               اعتماد به ما
             </h5>
+
+            <p>
+                متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و نوع با هدف بهبود ابزارهای کاربردی میآینده
+            </p>
           </b-col>
         </b-row>
       </b-container>
 
       <b-container fluid>
-        <b-row class="bg-primary pt-5 pb-3">
+        <p class="bg-primary pt-5 pb-3 text-center">
           کپی رایت تمامی حقوق مادی و معنوی این سرویس متعلق به شرکت انفورماتیک می‌باشد
-        </b-row>
+        </p>
       </b-container>
     </footer>
 </template>
